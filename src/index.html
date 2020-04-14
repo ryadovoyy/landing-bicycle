@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bicycle</title>
+
+    <link
+      href="img/favicon-96x96.png"
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i"
+      rel="stylesheet"
+    />
+
+    <link href="css/style.min.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="page-header">
+      <img
+        class="page-header__background"
+        src="img/page-header-bg.png"
+        alt="page-header-bg"
+      />
+
+      <nav class="page-header__nav">
+        <ul class="page-header__list">
+          <li class="page-header__item">
+            <a
+              class="page-header__link"
+              href="#"
+              onclick="smoothScroll(document.querySelector('.intro'))"
+            >
+              About us
+            </a>
+          </li>
+
+          <li class="page-header__item">.</li>
+
+          <li class="page-header__item">
+            <a
+              class="page-header__link"
+              href="#"
+              onclick="smoothScroll(document.querySelector('.goods'))"
+            >
+              Work
+            </a>
+          </li>
+
+          <li class="page-header__item page-header__item--hidden">.</li>
+
+          <li class="page-header__item page-header__item--logo">
+            <img class="page-header__logo" src="img/logo.png" alt="logo" />
+          </li>
+
+          <li class="page-header__item">
+            <a
+              class="page-header__link"
+              href="#"
+              onclick="smoothScroll(document.querySelector('.stuff'))"
+            >
+              Shop
+            </a>
+          </li>
+
+          <li class="page-header__item">.</li>
+
+          <li class="page-header__item">
+            <a
+              class="page-header__link"
+              href="#"
+              onclick="smoothScroll(document.querySelector('.feedback'))"
+            >
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro">
+        <div class="intro__container description">
+          <i class="intro__icon description__icon sprite sprite--chain"></i>
+
+          <h2 class="intro__title description__title">
+            A new generation of vintage bike
+          </h2>
+
+          <p class="intro__text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+          </p>
+        </div>
+      </section>
+
+      <section class="goods">
+        <div class="goods__container">
+          <div class="bike bike--first">
+            <img class="bike__background" src="img/bike-1.png" alt="bike-1" />
+
+            <img
+              class="bike__logo bike__logo--first"
+              src="img/bike-logo-1.png"
+              alt="bike-logo-1"
+            />
+          </div>
+
+          <div class="product product--half">
+            <div class="product__description description">
+              <i
+                class="product__icon description__icon sprite sprite--frame"
+              ></i>
+
+              <h2 class="product__title description__title">Vintage oliva</h2>
+
+              <p class="product__text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived.
+              </p>
+
+              <div class="product__line"></div>
+            </div>
+
+            <img class="product__img" src="img/product-1.png" alt="product-1" />
+          </div>
+        </div>
+
+        <div class="goods__container">
+          <div class="product product--half">
+            <div class="product__description description">
+              <i
+                class="product__icon description__icon sprite sprite--pedals"
+              ></i>
+
+              <h2 class="product__title description__title">La Boriosa</h2>
+
+              <p class="product__text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived.
+              </p>
+
+              <div class="product__line"></div>
+            </div>
+
+            <img class="product__img" src="img/product-2.png" alt="product-2" />
+          </div>
+
+          <div class="bike bike--second">
+            <img class="bike__background" src="img/bike-2.png" alt="bike-1" />
+
+            <img
+              class="bike__logo bike__logo--second"
+              src="img/bike-logo-2.png"
+              alt="bike-logo-2"
+            />
+          </div>
+        </div>
+
+        <div class="goods__container">
+          <div class="bike bike--third">
+            <img class="bike__background" src="img/bike-3.png" alt="bike-3" />
+
+            <img
+              class="bike__logo bike__logo--third"
+              src="img/bike-logo-3.png"
+              alt="bike-logo-3"
+            />
+          </div>
+
+          <div class="product">
+            <div class="product__description description">
+              <i
+                class="product__icon description__icon sprite sprite--fork"
+              ></i>
+
+              <h2 class="product__title description__title">
+                Retrò Bike - M. Hulot
+              </h2>
+
+              <p class="product__text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived.
+              </p>
+
+              <div class="product__line"></div>
+            </div>
+
+            <img class="product__img" src="img/product-3.png" alt="product-3" />
+          </div>
+
+          <div class="bike bike--fourth">
+            <img class="bike__background" src="img/bike-4.png" alt="bike-4" />
+          </div>
+        </div>
+      </section>
+
+      <section class="carousel">
+        <div class="carousel__container">
+          <div class="carousel__inner description">
+            <div class="carousel__item carousel__item--active">
+              <i class="carousel__icon description__icon sprite sprite--tw"></i>
+
+              <h2 class="carousel__title description__title">
+                AOD New York &nbsp;@aod <br class="carousel__break" /><span
+                  class="carousel__time"
+                  >&nbsp;/&nbsp; 35 min</span
+                >
+              </h2>
+
+              <p class="carousel__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
+                tellus ac nulla semper rhoncus. Nullam a odio porttitor, dictum
+                turpis vitae, pretium ante amet.
+              </p>
+            </div>
+
+            <div class="carousel__item">
+              <i class="carousel__icon description__icon sprite sprite--tw"></i>
+
+              <h2 class="carousel__title description__title">
+                AOD New York &nbsp;@aod <br class="carousel__break" /><span
+                  class="carousel__time"
+                  >&nbsp;/&nbsp; 35 min</span
+                >
+              </h2>
+
+              <p class="carousel__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
+                tellus ac nulla semper rhoncus. Nullam a odio porttitor, dictum
+                turpis vitae, pretium ante amet.
+              </p>
+            </div>
+
+            <div class="carousel__item">
+              <i class="carousel__icon description__icon sprite sprite--tw"></i>
+
+              <h2 class="carousel__title description__title">
+                AOD New York &nbsp;@aod <br class="carousel__break" /><span
+                  class="carousel__time"
+                  >&nbsp;/&nbsp; 35 min</span
+                >
+              </h2>
+
+              <p class="carousel__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
+                tellus ac nulla semper rhoncus. Nullam a odio porttitor, dictum
+                turpis vitae, pretium ante amet.
+              </p>
+            </div>
+          </div>
+
+          <ul class="carousel__indicators">
+            <li class="carousel__indicator carousel__indicator--active"></li>
+            <li class="carousel__indicator"></li>
+            <li class="carousel__indicator"></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="stuff">
+        <div class="stuff__container">
+          <div class="stuff__cluster">
+            <div class="stuff__content">
+              <div
+                class="stuff__item stuff__item--first stuff__item--square"
+              ></div>
+
+              <div
+                class="stuff__item stuff__item--second stuff__item--square"
+              ></div>
+
+              <div
+                class="stuff__item stuff__item--third stuff__item--wide"
+              ></div>
+            </div>
+          </div>
+
+          <div class="stuff__cluster">
+            <div class="stuff__content">
+              <div
+                class="stuff__item stuff__item--fourth stuff__item--narrow"
+              ></div>
+
+              <div
+                class="stuff__item stuff__item--fifth stuff__item--narrow"
+              ></div>
+            </div>
+          </div>
+
+          <div class="stuff__cluster">
+            <div class="stuff__content">
+              <div class="stuff__item stuff__item--sixth stuff__item--wide">
+                <div class="stuff__logo">
+                  <i class="stuff__icon sprite sprite--bike"></i>
+                  <p class="stuff__text">Shop now</p>
+                </div>
+              </div>
+
+              <div
+                class="stuff__item stuff__item--seventh stuff__item--square"
+              ></div>
+
+              <div
+                class="stuff__item stuff__item--eighth stuff__item--square"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="discover">
+        <div class="discover__container">
+          <a class="discover__button button" href="#">Discover the shop</a>
+        </div>
+      </section>
+
+      <section class="feedback">
+        <div class="feedback__container">
+          <div class="feedback__helper"></div>
+
+          <div class="feedback__item">
+            <img class="feedback__logo" src="img/logo.png" alt="logo" />
+            <p class="feedback__text">Stay on the saddle!</p>
+
+            <form class="feedback__form">
+              <input
+                class="feedback__input"
+                type="text"
+                placeholder="enter your email..."
+              />
+
+              <input class="feedback__submit button" type="submit" value="GO" />
+            </form>
+          </div>
+
+          <div class="feedback__helper"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <div class="page-footer__container">
+        <div class="page-footer__address">
+          <p class="page-footer__title">AOD New York</p>
+
+          <p class="page-footer__text">
+            2250 Lexington Avenue<br />
+            New York, NY 10035 - info@domain.com
+          </p>
+        </div>
+
+        <div class="page-footer__social">
+          <a class="page-footer__link page-footer__link--left" href="#">
+            <i class="page-footer__icon sprite sprite--twitter"></i>
+          </a>
+
+          <a class="page-footer__link" href="#">
+            <i class="page-footer__icon sprite sprite--facebook"></i>
+          </a>
+
+          <a class="page-footer__link page-footer__link--right" href="#">
+            <i class="page-footer__icon sprite sprite--pinterest"></i>
+          </a>
+        </div>
+
+        <div class="page-footer__design">
+          <p class="page-footer__text page-footer__text--design">Design by</p>
+
+          <img
+            class="page-footer__logo"
+            src="img/copyright-logo.png"
+            alt="copyright-logo"
+          />
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.min.js"></script>
+  </body>
+</html>

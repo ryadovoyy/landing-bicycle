@@ -1,0 +1,55 @@
+.bike {
+  position: relative;
+}
+
+.bike__background {
+  display: block;
+  width: 100%;
+}
+
+.bike__logo {
+  position: absolute;
+
+  &--first {
+    top: calc(50% - 59px);
+    left: calc(50% - 57px);
+  }
+
+  &--second {
+    top: calc(50% - 76px);
+    left: calc(50% - 89px);
+  }
+
+  &--third {
+    top: calc(50% - 34px);
+    left: calc(50% - 104px);
+  }
+}
+
+@media #{$desktop-widths} {
+  .bike {
+    flex-basis: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &--first {
+      background-image: url(../img/bike-1.png);
+    }
+
+    &--second {
+      background-image: url(../img/bike-2.png);
+    }
+
+    &--third {
+      background-image: url(../img/bike-3.png);
+    }
+
+    &--fourth {
+      background-image: url(../img/bike-4.png);
+    }
+  }
+
+  .bike__background {
+    display: none;
+  }
+}

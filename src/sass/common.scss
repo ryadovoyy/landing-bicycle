@@ -1,0 +1,41 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.9;
+  color: $font-text;
+  background-color: $bg-light;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: $bg-light;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    min-height: 50px;
+    background-color: $carousel-switch;
+  }
+
+  &::-webkit-scrollbar-corner {
+    background-color: $bg-light;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h2,
+p,
+ul {
+  margin: 0;
+}

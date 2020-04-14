@@ -1,0 +1,10 @@
+.goods__container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media #{$desktop-widths} {
+  .goods__container {
+    flex-direction: row;
+  }
+}

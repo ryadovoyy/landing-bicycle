@@ -1,0 +1,59 @@
+.sprite {
+  display: block;
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+
+  &--chain {
+    width: 52px;
+    height: 43px;
+    background-position: -5px -5px;
+  }
+
+  &--frame {
+    width: 41px;
+    height: 30px;
+    background-position: -67px -5px;
+  }
+
+  &--pedals {
+    width: 32px;
+    height: 32px;
+    background-position: -118px -5px;
+  }
+
+  &--fork {
+    width: 23px;
+    height: 41px;
+    background-position: -160px -5px;
+  }
+
+  &--tw {
+    width: 32px;
+    height: 27px;
+    background-position: -193px -5px;
+  }
+
+  &--bike {
+    width: 51px;
+    height: 30px;
+    background-position: -235px -5px;
+  }
+
+  &--twitter {
+    width: 35px;
+    height: 34px;
+    background-position: -386px -5px;
+  }
+
+  &--facebook {
+    width: 35px;
+    height: 34px;
+    background-position: -296px -5px;
+  }
+
+  &--pinterest {
+    width: 35px;
+    height: 34px;
+    background-position: -341px -5px;
+  }
+}

@@ -1,0 +1,30 @@
+.discover__container {
+  padding: 75px 35px;
+  background-color: $bg-dark;
+}
+
+.discover__button {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 11px;
+  max-width: 300px;
+  border: 1px solid $font-text;
+
+  &:hover {
+    background-color: $font-text;
+    color: $bg-dark;
+  }
+}
+
+@media #{$tablet-widths} {
+  .discover__container {
+    padding-right: 70px;
+    padding-left: 70px;
+    background-color: $bg-dark;
+  }
+
+  .discover__button {
+    padding-right: 58px;
+    padding-left: 58px;
+  }
+}

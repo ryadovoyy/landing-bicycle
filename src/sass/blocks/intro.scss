@@ -1,0 +1,23 @@
+.intro__container {
+  padding: 35px;
+}
+
+.intro__icon {
+  margin-bottom: 23px;
+}
+
+.intro__title {
+  margin-bottom: 14px;
+}
+
+@media #{$tablet-widths} {
+  .intro__container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 118px;
+    padding-right: 70px;
+    padding-bottom: 135px;
+    padding-left: 70px;
+    max-width: 1220px;
+  }
+}

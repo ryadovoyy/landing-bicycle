@@ -1,0 +1,15 @@
+.description {
+  text-align: center;
+}
+
+.description__icon {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.description__title {
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 3.5px;
+  color: $font-title;
+}
